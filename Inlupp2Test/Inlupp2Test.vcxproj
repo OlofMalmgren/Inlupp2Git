@@ -44,6 +44,7 @@
     <ClCompile Include="..\Inlupp2\LinkedList.cpp" />
     <ClCompile Include="..\Inlupp2\Queue.cpp" />
     <ClCompile Include="..\Inlupp2\Stack.cpp" />
+    <ClCompile Include="DoubleLinkedListTest.cpp" />
     <ClCompile Include="test.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
