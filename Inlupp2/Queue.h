@@ -16,6 +16,17 @@ private:
 	int Count;
 
 public:
+
+	datatype Peek()
+	{
+		if (Count == 0)
+		{
+			exit(EXIT_FAILURE);
+		}
+		Node * Temp = First;
+		return Temp->Element;
+	}
+
 	void AddElement(datatype NewElement) {
 		struct Node * NewNode = new struct Node;
 		NewNode->Element = NewElement;
